@@ -118,7 +118,7 @@ body {
 /* condição */
 @media (max-width: 1200px){
     .cabecalho{
-        padding: 10%;
+        padding: 10% 0 0 0;
     }
 
     .cabecalho__menu{
@@ -128,6 +128,11 @@ body {
     .tudo{
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 30px;
+    }
+
+    .tudo__imagem{
+        width: 80%;
     }
 
     .tudo__conteudo{
